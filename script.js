@@ -1,0 +1,1 @@
+console.log("AWS Developer Portfolio loaded successfully!");

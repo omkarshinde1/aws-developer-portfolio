@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f4f7fb;
+    color: #222;
+}
+
+/* Navigation */
+
+header {
+    background: #232f3e;
+    padding: 20px 8%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Hero */
+
+.hero {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    padding: 60px 8%;
+    background: white;
+}
+
+.hero h1 {
+    font-size: 50px;
+    color: #232f3e;
+    margin: 10px 0;
+}
+
+.hero h2 {
+    color: #ff9900;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    max-width: 650px;
+}
+
+.small-title {
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+/* Button */
+
+.btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 25px;
+    background: #ff9900;
+    color: #111;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+/* Sections */
+
+section {
+    padding: 70px 8%;
+}
+
+section > h2 {
+    color: #232f3e;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+
+/* Skills */
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skills-container div {
+    background: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+
+
+/* Projects */
+
+.project-card {
+    background: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.project-card h3 {
+    color: #232f3e;
+    margin-bottom: 10px;
+}
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #232f3e;
+    color: white;
+}
